@@ -19,6 +19,7 @@ namespace SWR.ConfiguratorApi.Controllers
 	[Authorize]
 	public class ComponentController : ControllerBase
 	{
+
         private readonly ISettingsService _settingsService;
 
         public ComponentController(ISettingsService settingService)
